@@ -67,7 +67,7 @@ var orm = {
 
 	// Function that updates a single table entry
 	updateOne: function(table, objColVals, condition, cb) {
-		// Construct the query string that updates a single entry in the target table
+		// Construct the query string 
 		var queryString = "UPDATE " + table;
 
 		queryString += " SET ";
@@ -75,13 +75,13 @@ var orm = {
 		queryString += " WHERE ";
 		queryString += condition;
 
-		// Perform the database query
+		// Database query
 		connection.query(queryString, function(err, result) {
 			if (err) {
 				throw err;
 			}
 
-			// Return results in callback
+			// Return results 
 			cb(result);
 		});
 	}
