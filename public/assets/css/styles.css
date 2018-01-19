@@ -37,10 +37,6 @@ h1 {
     border: none;
 }
 
-.burgerAva:hover {
-    background-color: #ea81ff;
-}
-
 .burgerDevoured {
     font-family: 'Bree Sarif', serif;
     font-weight: normal;
@@ -78,9 +74,6 @@ h3 {
     border: none;
 }
 
-.addBurgerBtn:active {
-   background-color: rgb(68, 218, 238);
-}
 
 .Footer {
    background-color: rgb(68, 218, 238);
