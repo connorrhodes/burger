@@ -7,7 +7,7 @@ var connection;
 
 	// DB is local on localhost
 	connection = mysql.createConnection({
-		port: 3306,
+		port: 3000,
 		host: 'localhost',
 		user: 'root',
 		password: 'fejwqkte',
