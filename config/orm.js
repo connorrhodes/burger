@@ -1,7 +1,7 @@
 // Import the MySQL connection object
 var connection = require ('./connection.js');
 
-// Helper function for generating MySQL syntax
+
 function printQuestionMarks(num) {
 	var arr = [];
 
@@ -12,7 +12,7 @@ function printQuestionMarks(num) {
 	return arr.toString();
 }
 
-// Helper function for generating My SQL syntax
+
 function toSql(ob) {
 	var arr = [];
 
@@ -23,20 +23,20 @@ function toSql(ob) {
 	return arr.toString();
 }
 
-// Create the ORM object to perform SQL queries
+
 var orm = {
 	// Function that returns all table entries
 	selectAll: function(tableInput, cb) {
 		// Construct the query string that returns all rows from the target table
 		var queryString = "SELECT * FROM " + tableInput + ";";
 
-		// Perform the database query
+		// Database query
 		connection.query(queryString, function(err, result) {
 			if (err) {
 				throw err;
 			}
 
-			// Return results in callback
+			// Return 
 			cb(result);
 		});
 	},
