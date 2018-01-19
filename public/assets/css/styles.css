@@ -1,0 +1,92 @@
+html {
+    background-color: rgb(68, 218, 238);
+}
+
+body {
+    width: 75%;
+   margin: 0 auto; 
+
+   
+   
+   background-color: rgb(255, 255, 255);
+}
+
+#da_burger {
+    display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 65px;
+    margin: 50px;
+}
+
+.burgerAvailable {
+    font-family: 'Shadows Into Light';
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;/* Makes the button corners round */
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ea81ff;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #ea81ff;
+}
+
+.burgerEaten {
+    font-family: 'Bree Sarif', serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;/* Makes the button corners round */
+    margin: 10px;
+    padding: 10px;
+    background-color: #c9ffff;
+}
+
+h2 {
+     text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    margin: 50px;
+}
+
+.formContainer {
+    background-color: rgb(68, 218, 238);
+}
+
+.addBurgerButton {
+    font-family: 'Acme', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    
+    border-radius: 25px;/* Makes the button corners round */
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(68, 218, 238);
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: rgb(68, 218, 238);
+}
+
+.Footer {
+   background-color: rgb(68, 218, 238);
+   padding: 20px 0;
+}
+
+.input {
+    text-align: center;
+}
