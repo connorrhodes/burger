@@ -23,13 +23,13 @@ h1 {
     margin: 50px;
 }
 
-.burgerAvailable {
+.burgerAva {
     font-family: 'Shadows Into Light';
     font-weight: normal;
     font-size: 20px;
     text-align: center;
 
-    border-radius: 25px;/* Makes the button corners round */
+    border-radius: 0px;/* Makes the button corners round */
     width: 100%;
     margin: 10px;
     padding: 10px;
@@ -37,17 +37,17 @@ h1 {
     border: none;
 }
 
-.burgerAvailable:hover {
+.burgerAva:hover {
     background-color: #ea81ff;
 }
 
-.burgerEaten {
+.burgerDevoured {
     font-family: 'Bree Sarif', serif;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
 
-    border-radius: 25px;/* Makes the button corners round */
+    border-radius: 0px;/* Makes the button corners round */
     margin: 10px;
     padding: 10px;
     background-color: #c9ffff;
@@ -64,13 +64,13 @@ h2 {
     background-color: rgb(68, 218, 238);
 }
 
-.addBurgerButton {
+.addBurgerBtn {
     font-family: 'Acme', sans-serif;
     font-weight: normal;
     font-size: 20px;
     text-align: center;
     
-    border-radius: 25px;/* Makes the button corners round */
+    border-radius: 0px;/* Makes the button corners round */
     width: 100%;
     margin: 0;
     padding: 10px;
@@ -78,7 +78,7 @@ h2 {
     border: none;
 }
 
-.addBurgerButton:active {
+.addBurgerBtn:active {
    background-color: rgb(68, 218, 238);
 }
 
