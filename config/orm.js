@@ -13,7 +13,7 @@ function printQuestionMarks(num) {
 }
 
 // Helper function for generating My SQL syntax
-function objToSql(ob) {
+function toSql(ob) {
 	var arr = [];
 
 	for (var key in ob) {
@@ -71,7 +71,7 @@ var orm = {
 		var queryString = "UPDATE " + table;
 
 		queryString += " SET ";
-		queryString += objToSql(objColVals);
+		queryString += toSql(objColVals);
 		queryString += " WHERE ";
 		queryString += condition;
 
