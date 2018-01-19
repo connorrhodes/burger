@@ -1,8 +1,8 @@
-// Pull in required dependencies
+
 var express = require('express');
 var router = express.Router();
 
-// Import the model (burger.js) to use its database functions.
+// Import the model 
 var burger = require('../models/burger.js');
 
 // Create the routes and associated logic
