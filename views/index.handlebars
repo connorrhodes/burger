@@ -3,7 +3,7 @@
 <main>
   <div class="container">
     <div class="row" title="">
-      <div class="col s6"><h3>Burgers to Eat</h3>
+      <div class="col s6"><h5>Burgers to Eat</h5>
         {{#each burgers}}
           {{#unless this.devoured}}
             <div>
@@ -15,7 +15,7 @@
         {{/each}}
       </div>
 
-      <div class="col s6"><h3>Burgers Already Eaten</h3>
+      <div class="col s6"><h5>Burgers Already Eaten</h5>
         {{#each burgers}}
           {{#if this.devoured}}
             <div class='burgerDevoured'>
